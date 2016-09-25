@@ -1,4 +1,5 @@
 require 'sinatra'
+require_relative 'caesar_split'
 get '/hello/:name' do
   # matches "GET /hello/foo" and "GET /hello/bar"
   # params['name'] is 'foo' or 'bar'
