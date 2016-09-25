@@ -40,9 +40,3 @@ class CaesarCipher
 	end
 
 end
-#puts "Input string to encrypt..."
-#text_to_cipher = gets.chomp
-#puts "Input cipher offset..."
-#cipher_offset = gets.chomp
-#puts caesar_cipher(text_to_cipher, cipher_offset.to_i)
-puts CaesarCipher.encrypt("Hello there", 111)
