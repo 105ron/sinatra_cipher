@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'sinatra/reloader'
+#require 'sinatra/reloader' #removed for deployment
 require_relative 'caesar_split'
 get '/' do
 	to_cypher,shift = params["encrypt"],params["shift"]
